@@ -60,6 +60,7 @@ public class dp_rf_compare {
 	public static final int NORMAL_SITUATION = 2;
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
+		System.out.println("");
 		Scanner s = new Scanner(System.in);
 		// --------------------------------------------랜덤포레스트 모델학습--------------------------------------------------
 		RandomForest RaF = initRF();
